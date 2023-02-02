@@ -7,12 +7,11 @@
 ```sh
 ./cargo run -- <query> <filename>.txt ignore
 ```
+Example - `./cargo run -- To poem_by_emily_dickinson.txt ignore`
 
-Example - `./cargo run -- To poem_by_emily_dickinson.txt ignore
-
-### Allowed Options
+### Allowed option
 ```
-ignore - Case-insensitive
+ignore - case-insensitive search
 ```
 
 ## Run tests
@@ -21,7 +20,7 @@ cargo test
 ```
 
 ## Note
-This is not a drop in replacement for grep. This is written for the sake of learning Rust.
+This is not a drop-in replacement for grep. This is written for the sake of learning Rust.
 
 ## Source
 This is an excersice from [the experimental book](https://rust-book.cs.brown.edu/ch12-00-an-io-project.html).
